@@ -28,7 +28,7 @@ This sample source code and project is designed to work with Eclipse. It was tes
 
 5. In the Package Explorer, select "Griddler - App Engine" project and from the context menu select Google -> Generate Cloud Endpoint Client Library. This should automatically copy the generated endpoint client libraries to you Griddler Android project. If it didn't you can drag endpoint-libs from the "Griddler - App Engine" to your "Griddler" project in the Package Explorer.
 
-6. If Eclipse reports a missing required source folder, remove it in Properties -> Java Build Path -> Source. 
+6. If Eclipse reports a missing required source folder, remove it in Properties -> Java Build Path -> Source.
 
 7. Edit GameBackendSettings.java in com.google.cloud.solutions.griddler.android package and update the following constants:
 
@@ -38,4 +38,4 @@ This sample source code and project is designed to work with Eclipse. It was tes
 
   String DEFAULT_ROOT_URL = "https://your_app_id.appspot.com/_ah/api/"; // Use alphanumeric project id of your Google Cloud project (which is also the app id of your App Engine application) that you created when setting up Griddler backend.
 
-8. Connect your physical Android device with USB debugging enabled, select Griddler project and run it.
+8. Connect your physical Android device with USB debugging enabled, select Griddler project and then Run As->Android Application.
